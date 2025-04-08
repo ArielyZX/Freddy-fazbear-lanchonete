@@ -1,5 +1,5 @@
 # Freddy-fazbear-lanchonete
-### Site realizado afim de contribuir para o curso técnico
+Um site criado com objetivo de concluir atividade de curso técnico. A ideia do site é de que ajude no funcionamento de restaurante, informando o cardápio e fazer pedidos através do site. O nome foi criado com referência ao jogo "FNAF" onde o local desse jogo é uma pizzaria. 
 
 
 
