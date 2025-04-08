@@ -1,0 +1,295 @@
+body{
+    background-color:rgb(175, 174, 174);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+}
+.search-box input[type = "text"]{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.search-box button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.corpo{
+    display: flex;
+    justify-content: space-between; 
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.carrinho{
+    background-color: purple;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.carrinho h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.carrinho .item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.carrinho .item .item-name{
+    flex: 1;
+}
+.carrinho .item .item-price{
+    margin-left: 10px;
+}
+.carrinho .total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.carrinho button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(85, 32, 85);
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.add{
+    box-shadow:1px 1px 5px black;
+    border: 1px black;
+    background: purple;
+    color: rgb(212, 87, 87);
+    height: 70px;
+    width: 50%;
+    margin-left: 100px;
+    font-family:Impact, fantasy;
+    font-size:30px;
+    margin-top: -30px;
+
+}
+h1{
+    color: rgb(255, 176, 31);
+    width: 50%;
+    margin-left: 100px;
+    font-size:20px;
+    margin-top: auto;
+}
+p{
+    color: rgb(255, 191, 73);
+    width: 50%;
+   margin-left: 100px;
+   font-family:Impact, fantasy;
+   margin-top: auto;
+    font-size:35px;
+    
+    margin-top: auto;
+}
+.options{
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+#option1{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option2{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option3{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option4{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option5{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option6{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option7{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option8{
+    background-color: rgb(85, 32, 85);
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  black;
+}
+#option1:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option2:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option3:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option4:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option5:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option6:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option6:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option7:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+#option8:hover{
+    transition: 0.2s;
+    box-shadow: 1px 1px 15px black;
+}
+img{
+    box-shadow: 1px 1px 20px;
+}
+#option1 img{
+    width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option2 img{
+    width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option3 img{
+    width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option4 img{
+    width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option5 img{
+     width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option6 img{
+     width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option7 img{
+     width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+#option8 img{
+     width: auto;
+    height: auto;
+    width: 255px;
+    height: 220px;
+    margin-left: 100px;
+}
+.troca{
+    box-shadow:1px 1px 5px black;
+    border: 1px black;
+    background: purple;
+    color: rgb(212, 87, 87);
+    height: 70px;
+    width: 80%;
+    margin-left: 100px;
+    font-family:Impact, fantasy;
+    font-size:30px;
+    margin-top: -30px;
+}
+h2{
+    font-size:30px;
+    margin-left: 700px;
+}
+
+footer{
+    border-top: solid #000 1px;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    bottom: 0;
+}

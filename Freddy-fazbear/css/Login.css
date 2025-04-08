@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url(https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/f/f8/The_Office_2_No_Flashlight.png/revision/latest/scale-to-width-down/1200?cb=20150127154505&path-prefix=pt-br); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient();
+    height: 100vh;
+    
+}    
+
+
+div {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.8; 
+    top: 50%;
+    left: 50%;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input {
+    padding: 13px;
+    margin: 4px;
+    width: 250px;
+}
+
+button {
+    background-color: rgba(224, 16, 51, 0.842);
+    color: aliceblue;
+    padding: 12px;
+    width: 120px;
+    border-radius: 8px;    
+}
+div i {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    right: 13%;
+    position: relative;
+    font-size: 20px;
+}

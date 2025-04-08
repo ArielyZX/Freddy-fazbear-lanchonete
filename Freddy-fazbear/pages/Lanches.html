@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Lanches.css">
+    <title>Lanches</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <h2>Freddy Fazzbear lanchonete</h2>
+            <form class="search-box">
+            <input type="text" placeholder="Buscar..." name="search">
+                <button type="submit">🔍</button>
+        </form>
+        </div>
+    </header>   
+    
+    <nav>
+    </nav>
+
+    <main>
+<div class="options">
+    <div id="option1" value="7.00 " data-name="Hambúrguer" data-price="10">
+                <img src="../images/teste.jpg" alt="Hambúrguer">
+                <h1>Hambúrguer</h1>
+                <p> $7,00</p>
+                <button class="add">Adicionar ao carrinho</button>
+            </div>
+    <div id="option2" value="5.00" data-name="Sanduíche" data-price="20">
+        <img src="../images/teste.jpg">
+        <h1>Sanduíche</h1>
+        <p>$5,00</p>
+        <button class="add">Adicionar ao carrinho</button>
+    </div>
+    <div id="option3" value="4.00" data-name="Bolo de chocolate" data-price="30">
+        <img src="../images/teste.jpg">
+        <h1>Bolo de chocolate</h1>
+                <p> $4,00</p>
+                <button class="add">Adicionar ao carrinho</button>
+    </div>
+    <div id="option4" value="5.50" data-name="Tortas" data-price="40">
+        <img src="../images/teste.jpg">
+        <h1>Tortas</h1>
+                <p> $5,50</p>
+                <button class="add">Adicionar ao carrinho</button>
+    </div>
+</div>
+<div class="options">
+    <div id="option5" vavlue="3.00" data-name="Donuts" data-price="50">
+        <img src="../images/teste.jpg">
+            <h1>Donnuts</h1>
+            <p> $3,00</p>
+            <button class="add">Adicionar ao carrinho</button>
+    </div>
+    <div id="option6" value="4.50" data-name="Pastel" data-price="60">
+        <img src="../images/teste.jpg">
+        <h1>Pastel</h1>
+                <p>$4,50</p>
+                <button class="add">Adicionar ao carrinho</button>
+    </div>
+    <div id="option7" value="7.50" data-name="Batata-frita" data-price="70">
+        <img src="../images/teste.jpg">
+        <h1>Batata-frita</h1>
+                <p>$7,50</p>
+                <button class="add">Adicionar ao carrinho</button>
+    </div>
+    <div id="option8" value="3" data-name="Kalzone" data-price="80">
+        <img src="../images/teste.jpg">
+        <h1>Kalzone</h1>
+                <p>$3,00</p>
+                <button class="add">Adicionar ao carrinho</button>
+    </div>
+</div>
+<h2>Outras opções</h2>
+<div class="options">
+    <a href="../pages/Pizzas.html"><button class="troca">Pizzas</button></a>
+    <a href="../pages/Bebidas.html"><button class="troca">Bebidas</button></a>
+    <a href="../pages/Sobremesas.html"><button class="troca">Sobremesas</button></a>
+</div>
+
+
+<div class="corpo">
+    <div class="carrinho">
+        <h3>Meu pedido</h3>
+        <div class="item">
+            <span class="item-name">item 1</span>
+            <span class="item-price">10 conto</span>
+        </div>
+        
+        <div class="item">
+            <span class="item-name">item 2</span>
+            <span class="item-price">10 conto</span>
+        </div>
+            <div class="total">
+                <span>Total</span>
+                <span>20 conto</span>
+            </div>
+        <button>Finalizar</button>
+    </div>
+</div>
+
+    </main>
+    <footer >
+        <div class="footer-container">
+            <div class="icons">
+                <a href="https://twitter.com/oOoArcanjooOo" target="_blank"><img src="../images/icons/icon-twitter.png" id="twitter"></a>
+                <a href="https://www.linkedin.com/in/patrick-ant%C3%B4nio-santos-oliveira-9b2026150/" target="_blank"><img src="../images/icons/icon-insta.png" id="insta" ></a>
+                <a href="https://github.com/FROST-BR" target="_blank"><img src="../images/icons/icon-git.png" id="github"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../script/carrinho.js"></script>
+</html>
