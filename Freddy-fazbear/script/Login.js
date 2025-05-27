@@ -2,7 +2,7 @@ function mostrar() {
     const inputPass = document.getElementById('senhao')
     const ShowPass = document.getElementById('icone')
 
-    if (inputPass.type === 'password') {
+    if (inputPass.type === 'password') { //esses três iguais servem para indicar comparação
         inputPass.setAttribute('type', 'text')
         ShowPass.classList.replace('bi-eye', 'bi-eye-slash')
     } else {
